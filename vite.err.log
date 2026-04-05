@@ -1,0 +1,72 @@
+[2m6:20:44 p. m.[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 3 errors:
+H:/Archivos/Descargas/panaderia-runner/src/App.jsx:1643:2: ERROR: The symbol "fetchRemoteAppState" has already been declared
+H:/Archivos/Descargas/panaderia-runner/src/App.jsx:1644:2: ERROR: The symbol "remoteEnabled" has already been declared
+H:/Archivos/Descargas/panaderia-runner/src/App.jsx:1645:2: ERROR: The symbol "saveRemoteAppState" has already been declared
+  Plugin: [35mvite:esbuild[39m
+  File: [36mH:/Archivos/Descargas/panaderia-runner/src/App.jsx[39m:1643:2
+[33m  
+  [33mThe symbol "fetchRemoteAppState" has already been declared[33m
+  1641 |  
+  1642 |  import {
+  1643 |    fetchRemoteAppState,
+       |    ^
+  1644 |    remoteEnabled,
+  1645 |    saveRemoteAppState,
+  
+  [33mThe symbol "remoteEnabled" has already been declared[33m
+  1642 |  import {
+  1643 |    fetchRemoteAppState,
+  1644 |    remoteEnabled,
+       |    ^
+  1645 |    saveRemoteAppState,
+  1646 |  } from "./lib/cloudStore.js";
+  
+  [33mThe symbol "saveRemoteAppState" has already been declared[33m
+  1643 |    fetchRemoteAppState,
+  1644 |    remoteEnabled,
+  1645 |    saveRemoteAppState,
+       |    ^
+  1646 |  } from "./lib/cloudStore.js";
+  1647 |  
+  [39m
+[2m6:20:44 p. m.[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 3 errors:
+H:/Archivos/Descargas/panaderia-runner/src/App.jsx:1643:2: ERROR: The symbol "fetchRemoteAppState" has already been declared
+H:/Archivos/Descargas/panaderia-runner/src/App.jsx:1644:2: ERROR: The symbol "remoteEnabled" has already been declared
+H:/Archivos/Descargas/panaderia-runner/src/App.jsx:1645:2: ERROR: The symbol "saveRemoteAppState" has already been declared[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36mH:/Archivos/Descargas/panaderia-runner/src/App.jsx[39m:1643:2
+[33m  
+  [33mThe symbol "fetchRemoteAppState" has already been declared[33m
+  1641 |  
+  1642 |  import {
+  1643 |    fetchRemoteAppState,
+       |    ^
+  1644 |    remoteEnabled,
+  1645 |    saveRemoteAppState,
+  
+  [33mThe symbol "remoteEnabled" has already been declared[33m
+  1642 |  import {
+  1643 |    fetchRemoteAppState,
+  1644 |    remoteEnabled,
+       |    ^
+  1645 |    saveRemoteAppState,
+  1646 |  } from "./lib/cloudStore.js";
+  
+  [33mThe symbol "saveRemoteAppState" has already been declared[33m
+  1643 |    fetchRemoteAppState,
+  1644 |    remoteEnabled,
+  1645 |    saveRemoteAppState,
+       |    ^
+  1646 |  } from "./lib/cloudStore.js";
+  1647 |  
+  [39m
+      at failureErrorWithLog (H:\Archivos\Descargas\panaderia-runner\node_modules\esbuild\lib\main.js:1748:15)
+      at H:\Archivos\Descargas\panaderia-runner\node_modules\esbuild\lib\main.js:1017:50
+      at responseCallbacks.<computed> (H:\Archivos\Descargas\panaderia-runner\node_modules\esbuild\lib\main.js:884:9)
+      at handleIncomingPacket (H:\Archivos\Descargas\panaderia-runner\node_modules\esbuild\lib\main.js:939:12)
+      at Socket.readFromStdout (H:\Archivos\Descargas\panaderia-runner\node_modules\esbuild\lib\main.js:862:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:563:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+      at Readable.push (node:internal/streams/readable:394:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
